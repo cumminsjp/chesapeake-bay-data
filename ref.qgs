@@ -1,0 +1,1214 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="3.2.1-Bonn">
+  <homePath path=""/>
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <proj4>+proj=utm +zone=18 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+      <srsid>2295</srsid>
+      <srid>26918</srid>
+      <authid>EPSG:26918</authid>
+      <description>NAD83 / UTM zone 18N</description>
+      <projectionacronym>utm</projectionacronym>
+      <ellipsoidacronym>GRS80</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties/>
+    <layer-tree-layer source="./bay-shoreline/shp/bay_shoreline.shp" name="bay_shoreline" checked="Qt::Checked" id="bay_shoreline20180921125303407" expanded="1" providerKey="ogr">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer source="./chesapeake-bay-shoreline/shp/chesapeake-bay-shoreline.shp" name="chesapeake-bay-shoreline" checked="Qt::Checked" id="chesapeake_bay_shoreline20180921125246949" expanded="1" providerKey="ogr">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer source="./bay-watershed-p5-boundaries/shp-individuals/p5-lrsegs-07-2008/shp/p5_lrsegs_07_2008.shp" name="p5_lrsegs_07_2008" checked="Qt::Checked" id="p5_lrsegs_07_200820180921125403040" expanded="1" providerKey="ogr">
+      <customproperties/>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>chesapeake_bay_shoreline20180921125246949</item>
+      <item>bay_shoreline20180921125303407</item>
+      <item>p5_lrsegs_07_200820180921125403040</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings enabled="0" tolerance="0" type="1" unit="2" mode="1" intersection-snapping="0">
+    <individual-layer-settings>
+      <layer-setting enabled="0" tolerance="0" type="2" id="chesapeake_bay_shoreline20180921125246949" units="2"/>
+      <layer-setting enabled="0" tolerance="12" type="1" id="p5_lrsegs_07_200820180921125403040" units="1"/>
+      <layer-setting enabled="0" tolerance="0" type="2" id="bay_shoreline20180921125303407" units="2"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <mapcanvas name="theMapCanvas" annotationsVisible="1">
+    <units>meters</units>
+    <extent>
+      <xmin>279309.59464813623344526</xmin>
+      <ymin>4055932.64394614193588495</ymin>
+      <xmax>470304.56176361424149945</xmax>
+      <ymax>4393008.10553366784006357</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=utm +zone=18 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+        <srsid>2295</srsid>
+        <srid>26918</srid>
+        <authid>EPSG:26918</authid>
+        <description>NAD83 / UTM zone 18N</description>
+        <projectionacronym>utm</projectionacronym>
+        <ellipsoidacronym>GRS80</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <legend updateDrawingOrder="true">
+    <legendlayer name="bay_shoreline" checked="Qt::Checked" showFeatureCount="0" drawingOrder="-1" open="true">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" visible="1" layerid="bay_shoreline20180921125303407"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer name="chesapeake-bay-shoreline" checked="Qt::Checked" showFeatureCount="0" drawingOrder="-1" open="true">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" visible="1" layerid="chesapeake_bay_shoreline20180921125246949"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer name="p5_lrsegs_07_2008" checked="Qt::Checked" showFeatureCount="0" drawingOrder="-1" open="true">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile isInOverview="0" visible="1" layerid="p5_lrsegs_07_200820180921125403040"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks/>
+  <mapViewDocks3D/>
+  <projectlayers>
+    <maplayer geometry="Polygon" simplifyAlgorithm="0" simplifyDrawingTol="1" simplifyMaxScale="1" autoRefreshTime="0" refreshOnNotifyMessage="" maxScale="0" type="vector" readOnly="0" minScale="1e+8" refreshOnNotifyEnabled="0" simplifyDrawingHints="1" hasScaleBasedVisibilityFlag="0" labelsEnabled="1" simplifyLocal="1" autoRefreshEnabled="0">
+      <extent>
+        <xmin>284820.95025006902869791</xmin>
+        <ymin>4065455.80307181132957339</ymin>
+        <xmax>446622.11622475821059197</xmax>
+        <ymax>4385271.61444166302680969</ymax>
+      </extent>
+      <id>bay_shoreline20180921125303407</id>
+      <datasource>./bay-shoreline/shp/bay_shoreline.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>bay_shoreline</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=18 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>2295</srsid>
+          <srid>26918</srid>
+          <authid>EPSG:26918</authid>
+          <description>NAD83 / UTM zone 18N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 symbollevels="0" enableorderby="0" type="singleSymbol" forceraster="0">
+        <symbols>
+          <symbol name="0" type="fill" alpha="1" clip_to_extent="1">
+            <layer enabled="1" locked="0" pass="0" class="SimpleFill">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="88,243,243,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory scaleBasedVisibility="0" barWidth="5" rotationOffset="270" labelPlacementMethod="XHeight" opacity="1" lineSizeType="MM" diagramOrientation="Up" minScaleDenominator="inf" lineSizeScale="3x:0,0,0,0,0,0" penAlpha="255" sizeScale="3x:0,0,0,0,0,0" sizeType="MM" width="15" penColor="#000000" minimumSize="0" backgroundColor="#ffffff" backgroundAlpha="255" penWidth="0" scaleDependency="Area" enabled="0" maxScaleDenominator="1e+8" height="15">
+          <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute color="#000000" field="" label=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings priority="0" placement="0" zIndex="0" linePlacementFlags="10" obstacle="0" dist="0" showAll="1">
+        <properties>
+          <Option type="Map">
+            <Option name="name" value="" type="QString"/>
+            <Option name="properties"/>
+            <Option name="type" value="collection" type="QString"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <fieldConfiguration>
+        <field name="SHAPE_area">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SHAPE_len">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" index="0" field="SHAPE_area"/>
+        <alias name="" index="1" field="SHAPE_len"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="SHAPE_area" applyOnUpdate="0" expression=""/>
+        <default field="SHAPE_len" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" unique_strength="0" field="SHAPE_area" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="SHAPE_len" exp_strength="0" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="SHAPE_area"/>
+        <constraint exp="" desc="" field="SHAPE_len"/>
+      </constraintExpressions>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns>
+          <column name="SHAPE_area" hidden="0" type="field" width="-1"/>
+          <column name="SHAPE_len" hidden="0" type="field" width="-1"/>
+          <column hidden="1" type="actions" width="-1"/>
+        </columns>
+      </attributetableconfig>
+      <editform>.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression>"SHAPE_area"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer geometry="Polygon" simplifyAlgorithm="0" simplifyDrawingTol="1" simplifyMaxScale="1" autoRefreshTime="0" refreshOnNotifyMessage="" maxScale="0" type="vector" readOnly="0" minScale="1e+8" refreshOnNotifyEnabled="0" simplifyDrawingHints="1" hasScaleBasedVisibilityFlag="0" labelsEnabled="1" simplifyLocal="1" autoRefreshEnabled="0">
+      <extent>
+        <xmin>283857.09386517142411321</xmin>
+        <ymin>4063958.25017441669479012</ymin>
+        <xmax>465757.0625465790508315</xmax>
+        <ymax>4384982.49930539354681969</ymax>
+      </extent>
+      <id>chesapeake_bay_shoreline20180921125246949</id>
+      <datasource>./chesapeake-bay-shoreline/shp/chesapeake-bay-shoreline.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>chesapeake-bay-shoreline</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=18 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>2295</srsid>
+          <srid>26918</srid>
+          <authid>EPSG:26918</authid>
+          <description>NAD83 / UTM zone 18N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 symbollevels="0" enableorderby="0" type="singleSymbol" forceraster="0">
+        <symbols>
+          <symbol name="0" type="fill" alpha="1" clip_to_extent="1">
+            <layer enabled="1" locked="0" pass="0" class="SimpleFill">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="127,22,38,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory scaleBasedVisibility="0" barWidth="5" rotationOffset="270" labelPlacementMethod="XHeight" opacity="1" lineSizeType="MM" diagramOrientation="Up" minScaleDenominator="inf" lineSizeScale="3x:0,0,0,0,0,0" penAlpha="255" sizeScale="3x:0,0,0,0,0,0" sizeType="MM" width="15" penColor="#000000" minimumSize="0" backgroundColor="#ffffff" backgroundAlpha="255" penWidth="0" scaleDependency="Area" enabled="0" maxScaleDenominator="1e+8" height="15">
+          <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute color="#000000" field="" label=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings priority="0" placement="0" zIndex="0" linePlacementFlags="10" obstacle="0" dist="0" showAll="1">
+        <properties>
+          <Option type="Map">
+            <Option name="name" value="" type="QString"/>
+            <Option name="properties"/>
+            <Option name="type" value="collection" type="QString"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <fieldConfiguration>
+        <field name="OBJECTID">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SHAPE_area">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SHAPE_len">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" index="0" field="OBJECTID"/>
+        <alias name="" index="1" field="SHAPE_area"/>
+        <alias name="" index="2" field="SHAPE_len"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="OBJECTID" applyOnUpdate="0" expression=""/>
+        <default field="SHAPE_area" applyOnUpdate="0" expression=""/>
+        <default field="SHAPE_len" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" unique_strength="0" field="OBJECTID" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="SHAPE_area" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="SHAPE_len" exp_strength="0" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="OBJECTID"/>
+        <constraint exp="" desc="" field="SHAPE_area"/>
+        <constraint exp="" desc="" field="SHAPE_len"/>
+      </constraintExpressions>
+      <attributeactions/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns>
+          <column name="OBJECTID" hidden="0" type="field" width="-1"/>
+          <column name="SHAPE_area" hidden="0" type="field" width="-1"/>
+          <column name="SHAPE_len" hidden="0" type="field" width="-1"/>
+          <column hidden="1" type="actions" width="-1"/>
+        </columns>
+      </attributetableconfig>
+      <editform>.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression>"OBJECTID"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer geometry="Polygon" simplifyAlgorithm="0" simplifyDrawingTol="1" simplifyMaxScale="1" autoRefreshTime="0" refreshOnNotifyMessage="" maxScale="0" type="vector" readOnly="0" minScale="1e+8" refreshOnNotifyEnabled="0" simplifyDrawingHints="1" hasScaleBasedVisibilityFlag="0" labelsEnabled="1" simplifyLocal="1" autoRefreshEnabled="0">
+      <extent>
+        <xmin>-276779.00021678162738681</xmin>
+        <ymin>3974957.25088131986558437</ymin>
+        <xmax>568397.18745035026222467</xmax>
+        <ymax>4882655.99911868013441563</ymax>
+      </extent>
+      <id>p5_lrsegs_07_200820180921125403040</id>
+      <datasource>./bay-watershed-p5-boundaries/shp-individuals/p5-lrsegs-07-2008/shp/p5_lrsegs_07_2008.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>p5_lrsegs_07_2008</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=18 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>2295</srsid>
+          <srid>26918</srid>
+          <authid>EPSG:26918</authid>
+          <description>NAD83 / UTM zone 18N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <renderer-v2 symbollevels="0" enableorderby="0" type="singleSymbol" forceraster="0">
+        <symbols>
+          <symbol name="0" type="fill" alpha="1" clip_to_extent="1">
+            <layer enabled="1" locked="0" pass="0" class="SimpleFill">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="29,49,148,0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory scaleBasedVisibility="0" barWidth="5" rotationOffset="270" labelPlacementMethod="XHeight" opacity="1" lineSizeType="MM" diagramOrientation="Up" minScaleDenominator="inf" lineSizeScale="3x:0,0,0,0,0,0" penAlpha="255" sizeScale="3x:0,0,0,0,0,0" sizeType="MM" width="15" penColor="#000000" minimumSize="0" backgroundColor="#ffffff" backgroundAlpha="255" penWidth="0" scaleDependency="Area" enabled="0" maxScaleDenominator="1e+8" height="15">
+          <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute color="#000000" field="" label=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings priority="0" placement="0" zIndex="0" linePlacementFlags="10" obstacle="0" dist="0" showAll="1">
+        <properties>
+          <Option type="Map">
+            <Option name="name" value="" type="QString"/>
+            <Option name="properties"/>
+            <Option name="type" value="collection" type="QString"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <fieldConfiguration>
+        <field name="OBJECTID">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MAJOR">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MINOR">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UNIQID">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DSID">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FLOW">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CATCODE2">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ST">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CNTYNAME">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FIPS2">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FIPSAB">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TIDALWATER">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FIPSCATWAT">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="P5TTB05">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="P5TSB05">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MAJMIN">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CBW">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="REGION">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="WATERSHED">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MAJBAS">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MINBAS">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FIPSCAT">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RIVER_SIMU">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RIVERNAME">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FIPS">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MAP_BASIN">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Shape_area">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Shape_len">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option name="IsMultiline" value="0" type="QString"/>
+                <Option name="UseHtml" value="0" type="QString"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" index="0" field="OBJECTID"/>
+        <alias name="" index="1" field="MAJOR"/>
+        <alias name="" index="2" field="MINOR"/>
+        <alias name="" index="3" field="UNIQID"/>
+        <alias name="" index="4" field="DSID"/>
+        <alias name="" index="5" field="FLOW"/>
+        <alias name="" index="6" field="CATCODE2"/>
+        <alias name="" index="7" field="ST"/>
+        <alias name="" index="8" field="CNTYNAME"/>
+        <alias name="" index="9" field="FIPS2"/>
+        <alias name="" index="10" field="FIPSAB"/>
+        <alias name="" index="11" field="TIDALWATER"/>
+        <alias name="" index="12" field="FIPSCATWAT"/>
+        <alias name="" index="13" field="P5TTB05"/>
+        <alias name="" index="14" field="P5TSB05"/>
+        <alias name="" index="15" field="MAJMIN"/>
+        <alias name="" index="16" field="CBW"/>
+        <alias name="" index="17" field="REGION"/>
+        <alias name="" index="18" field="WATERSHED"/>
+        <alias name="" index="19" field="MAJBAS"/>
+        <alias name="" index="20" field="MINBAS"/>
+        <alias name="" index="21" field="FIPSCAT"/>
+        <alias name="" index="22" field="RIVER_SIMU"/>
+        <alias name="" index="23" field="RIVERNAME"/>
+        <alias name="" index="24" field="FIPS"/>
+        <alias name="" index="25" field="MAP_BASIN"/>
+        <alias name="" index="26" field="Shape_area"/>
+        <alias name="" index="27" field="Shape_len"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="OBJECTID" applyOnUpdate="0" expression=""/>
+        <default field="MAJOR" applyOnUpdate="0" expression=""/>
+        <default field="MINOR" applyOnUpdate="0" expression=""/>
+        <default field="UNIQID" applyOnUpdate="0" expression=""/>
+        <default field="DSID" applyOnUpdate="0" expression=""/>
+        <default field="FLOW" applyOnUpdate="0" expression=""/>
+        <default field="CATCODE2" applyOnUpdate="0" expression=""/>
+        <default field="ST" applyOnUpdate="0" expression=""/>
+        <default field="CNTYNAME" applyOnUpdate="0" expression=""/>
+        <default field="FIPS2" applyOnUpdate="0" expression=""/>
+        <default field="FIPSAB" applyOnUpdate="0" expression=""/>
+        <default field="TIDALWATER" applyOnUpdate="0" expression=""/>
+        <default field="FIPSCATWAT" applyOnUpdate="0" expression=""/>
+        <default field="P5TTB05" applyOnUpdate="0" expression=""/>
+        <default field="P5TSB05" applyOnUpdate="0" expression=""/>
+        <default field="MAJMIN" applyOnUpdate="0" expression=""/>
+        <default field="CBW" applyOnUpdate="0" expression=""/>
+        <default field="REGION" applyOnUpdate="0" expression=""/>
+        <default field="WATERSHED" applyOnUpdate="0" expression=""/>
+        <default field="MAJBAS" applyOnUpdate="0" expression=""/>
+        <default field="MINBAS" applyOnUpdate="0" expression=""/>
+        <default field="FIPSCAT" applyOnUpdate="0" expression=""/>
+        <default field="RIVER_SIMU" applyOnUpdate="0" expression=""/>
+        <default field="RIVERNAME" applyOnUpdate="0" expression=""/>
+        <default field="FIPS" applyOnUpdate="0" expression=""/>
+        <default field="MAP_BASIN" applyOnUpdate="0" expression=""/>
+        <default field="Shape_area" applyOnUpdate="0" expression=""/>
+        <default field="Shape_len" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" unique_strength="0" field="OBJECTID" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="MAJOR" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="MINOR" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="UNIQID" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="DSID" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="FLOW" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="CATCODE2" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="ST" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="CNTYNAME" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="FIPS2" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="FIPSAB" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="TIDALWATER" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="FIPSCATWAT" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="P5TTB05" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="P5TSB05" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="MAJMIN" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="CBW" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="REGION" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="WATERSHED" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="MAJBAS" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="MINBAS" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="FIPSCAT" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="RIVER_SIMU" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="RIVERNAME" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="FIPS" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="MAP_BASIN" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="Shape_area" exp_strength="0" constraints="0"/>
+        <constraint notnull_strength="0" unique_strength="0" field="Shape_len" exp_strength="0" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="OBJECTID"/>
+        <constraint exp="" desc="" field="MAJOR"/>
+        <constraint exp="" desc="" field="MINOR"/>
+        <constraint exp="" desc="" field="UNIQID"/>
+        <constraint exp="" desc="" field="DSID"/>
+        <constraint exp="" desc="" field="FLOW"/>
+        <constraint exp="" desc="" field="CATCODE2"/>
+        <constraint exp="" desc="" field="ST"/>
+        <constraint exp="" desc="" field="CNTYNAME"/>
+        <constraint exp="" desc="" field="FIPS2"/>
+        <constraint exp="" desc="" field="FIPSAB"/>
+        <constraint exp="" desc="" field="TIDALWATER"/>
+        <constraint exp="" desc="" field="FIPSCATWAT"/>
+        <constraint exp="" desc="" field="P5TTB05"/>
+        <constraint exp="" desc="" field="P5TSB05"/>
+        <constraint exp="" desc="" field="MAJMIN"/>
+        <constraint exp="" desc="" field="CBW"/>
+        <constraint exp="" desc="" field="REGION"/>
+        <constraint exp="" desc="" field="WATERSHED"/>
+        <constraint exp="" desc="" field="MAJBAS"/>
+        <constraint exp="" desc="" field="MINBAS"/>
+        <constraint exp="" desc="" field="FIPSCAT"/>
+        <constraint exp="" desc="" field="RIVER_SIMU"/>
+        <constraint exp="" desc="" field="RIVERNAME"/>
+        <constraint exp="" desc="" field="FIPS"/>
+        <constraint exp="" desc="" field="MAP_BASIN"/>
+        <constraint exp="" desc="" field="Shape_area"/>
+        <constraint exp="" desc="" field="Shape_len"/>
+      </constraintExpressions>
+      <attributeactions/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns>
+          <column name="OBJECTID" hidden="0" type="field" width="-1"/>
+          <column name="MAJOR" hidden="0" type="field" width="-1"/>
+          <column name="MINOR" hidden="0" type="field" width="-1"/>
+          <column name="UNIQID" hidden="0" type="field" width="-1"/>
+          <column name="DSID" hidden="0" type="field" width="-1"/>
+          <column name="FLOW" hidden="0" type="field" width="-1"/>
+          <column name="CATCODE2" hidden="0" type="field" width="-1"/>
+          <column name="ST" hidden="0" type="field" width="-1"/>
+          <column name="CNTYNAME" hidden="0" type="field" width="-1"/>
+          <column name="FIPS2" hidden="0" type="field" width="-1"/>
+          <column name="FIPSAB" hidden="0" type="field" width="-1"/>
+          <column name="TIDALWATER" hidden="0" type="field" width="-1"/>
+          <column name="FIPSCATWAT" hidden="0" type="field" width="-1"/>
+          <column name="P5TTB05" hidden="0" type="field" width="-1"/>
+          <column name="P5TSB05" hidden="0" type="field" width="-1"/>
+          <column name="MAJMIN" hidden="0" type="field" width="-1"/>
+          <column name="CBW" hidden="0" type="field" width="-1"/>
+          <column name="REGION" hidden="0" type="field" width="-1"/>
+          <column name="WATERSHED" hidden="0" type="field" width="-1"/>
+          <column name="MAJBAS" hidden="0" type="field" width="-1"/>
+          <column name="MINBAS" hidden="0" type="field" width="-1"/>
+          <column name="FIPSCAT" hidden="0" type="field" width="-1"/>
+          <column name="RIVER_SIMU" hidden="0" type="field" width="-1"/>
+          <column name="RIVERNAME" hidden="0" type="field" width="-1"/>
+          <column name="FIPS" hidden="0" type="field" width="-1"/>
+          <column name="MAP_BASIN" hidden="0" type="field" width="-1"/>
+          <column name="Shape_area" hidden="0" type="field" width="-1"/>
+          <column name="Shape_len" hidden="0" type="field" width="-1"/>
+          <column hidden="1" type="actions" width="-1"/>
+        </columns>
+      </attributetableconfig>
+      <editform>.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <expressionfields/>
+      <previewExpression>"CNTYNAME"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="chesapeake_bay_shoreline20180921125246949"/>
+    <layer id="bay_shoreline20180921125303407"/>
+    <layer id="p5_lrsegs_07_200820180921125403040"/>
+  </layerorder>
+  <properties>
+    <WMSContactPhone type="QString"></WMSContactPhone>
+    <WMSPrecision type="QString">8</WMSPrecision>
+    <WMSUrl type="QString"></WMSUrl>
+    <WMSRestrictedLayers type="QStringList"/>
+    <WMSImageQuality type="int">90</WMSImageQuality>
+    <WCSUrl type="QString"></WCSUrl>
+    <WMSAccessConstraints type="QString">None</WMSAccessConstraints>
+    <WMSRestrictedComposers type="QStringList"/>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <WMSServiceTitle type="QString"></WMSServiceTitle>
+    <WMSSegmentizeFeatureInfoGeometry type="bool">false</WMSSegmentizeFeatureInfoGeometry>
+    <WMSContactMail type="QString"></WMSContactMail>
+    <Measure>
+      <Ellipsoid type="QString">NONE</Ellipsoid>
+    </Measure>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <WFSLayers type="QStringList"/>
+    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
+    <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
+    <WMSOnlineResource type="QString"></WMSOnlineResource>
+    <SpatialRefSys>
+      <ProjectCrs type="QString">EPSG:26918</ProjectCrs>
+      <ProjectCRSID type="int">2295</ProjectCRSID>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+      <ProjectCRSProj4String type="QString">+proj=utm +zone=18 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</ProjectCRSProj4String>
+    </SpatialRefSys>
+    <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
+    <WCSLayers type="QStringList"/>
+    <WFSTLayers>
+      <Update type="QStringList"/>
+      <Insert type="QStringList"/>
+      <Delete type="QStringList"/>
+    </WFSTLayers>
+    <WMSFees type="QString">conditions unknown</WMSFees>
+    <Digitizing>
+      <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
+      <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
+      <LayerSnappingEnabledList type="QStringList">
+        <value>disabled</value>
+        <value>disabled</value>
+      </LayerSnappingEnabledList>
+      <LayerSnappingToleranceUnitList type="QStringList">
+        <value>2</value>
+        <value>2</value>
+      </LayerSnappingToleranceUnitList>
+      <AvoidIntersectionsList type="QStringList"/>
+      <DefaultSnapType type="QString">off</DefaultSnapType>
+      <LayerSnappingList type="QStringList">
+        <value>chesapeake_bay_shoreline20180921125246949</value>
+        <value>bay_shoreline20180921125303407</value>
+      </LayerSnappingList>
+      <LayerSnapToList type="QStringList">
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+      </LayerSnapToList>
+      <SnappingMode type="QString">current_layer</SnappingMode>
+      <LayerSnappingToleranceList type="QStringList">
+        <value>0.000000</value>
+        <value>0.000000</value>
+      </LayerSnappingToleranceList>
+    </Digitizing>
+    <Measurement>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+      <AreaUnits type="QString">m2</AreaUnits>
+    </Measurement>
+    <Macros>
+      <pythonCode type="QString"></pythonCode>
+    </Macros>
+    <WMSContactPerson type="QString"></WMSContactPerson>
+    <DefaultStyles>
+      <Fill type="QString"></Fill>
+      <RandomColors type="bool">true</RandomColors>
+      <Marker type="QString"></Marker>
+      <AlphaInt type="int">255</AlphaInt>
+      <ColorRamp type="QString"></ColorRamp>
+      <Line type="QString"></Line>
+    </DefaultStyles>
+    <WMSContactPosition type="QString"></WMSContactPosition>
+    <WMSServiceAbstract type="QString"></WMSServiceAbstract>
+    <PositionPrecision>
+      <DegreeFormat type="QString">MU</DegreeFormat>
+      <Automatic type="bool">true</Automatic>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+    </PositionPrecision>
+    <Identify>
+      <disabledLayers type="QStringList"/>
+    </Identify>
+    <WMSContactOrganization type="QString"></WMSContactOrganization>
+    <WFSUrl type="QString"></WFSUrl>
+    <Variables>
+      <variableValues type="QStringList"/>
+      <variableNames type="QStringList"/>
+    </Variables>
+    <WMSKeywordList type="QStringList">
+      <value></value>
+    </WMSKeywordList>
+    <Gui>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+    </Gui>
+    <PAL>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+      <CandidatesLine type="int">50</CandidatesLine>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <SearchMethod type="int">0</SearchMethod>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+      <DrawOutlineLabels type="bool">true</DrawOutlineLabels>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+    </PAL>
+  </properties>
+  <visibility-presets/>
+  <transformContext/>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <links/>
+    <author></author>
+    <creation></creation>
+  </projectMetadata>
+  <Annotations/>
+  <Layouts/>
+</qgis>
